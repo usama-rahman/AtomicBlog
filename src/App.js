@@ -28,7 +28,7 @@ function App() {
         onClick={() => setIsFakeDark((isFakeDark) => !isFakeDark)}
         className="btn-fake-dark-mode"
       >
-        {isFakeDark ? "☀️" : "🌙"}
+        {isFakeDark ? "☀" : "🌙"}
       </button>
 
       <PostProvider>
