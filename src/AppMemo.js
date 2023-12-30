@@ -17,6 +17,7 @@ function App() {
   const [isFakeDark, setIsFakeDark] = useState(false);
 
   // Derived state. These are the posts that will actually be displayed
+
   const searchedPosts =
     searchQuery.length > 0
       ? posts.filter((post) =>
